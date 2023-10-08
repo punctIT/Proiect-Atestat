@@ -79,6 +79,8 @@ const filme=[
       const FiltreFilme=document.getElementById("Filtre-Options");
       FiltreFilme.style.display = 'none';
       filtru=",";
+      const Filtru=document.getElementById("btn"+bfil);
+      Filtru.style.backgroundColor = "black";
       genetareFilme();
     }
   }
