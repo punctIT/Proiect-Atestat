@@ -2,7 +2,7 @@
 header {
     background-color: #666;
     padding: 2%;
-    
+    top:0;
     float: center;
     width: auto;
     text-align: center;
@@ -11,13 +11,18 @@ header {
   }
   * {
     box-sizing: border-box;
+    color: white;
   }
   
-  body {
+  html , body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    
     font-family: Arial, Helvetica, sans-serif;
-  }
-
-  
+}
+ 
   
   /* Style the list inside the menu */
   nav ul {
@@ -47,6 +52,56 @@ header {
     height: auto;
   }
 
+
+  nav1 {
+    float:left;
+    width:20%;
+    border: 2px solid #ffffff;
+    height: 30%;
+    float: center;
+    padding: 1%;
+    height: 10%; /* only for demonstration, should be removed */
+    background: #8e1515;
+   
+  }
+
+  article1 {
+    float: right;
+    padding: 20px;
+    width: 80%;
+    border-radius: 5px;
+    height: 10%;
+    background-image: linear-gradient(to right, rgb(45, 44, 44) , rgb(22, 22, 22));
+    border: 2px solid #ffffff;
+    background-color: #000000;
+  }
+  .movie-cover{
+    width: 100%;
+    
+   }
+   .movie-title{
+    width: 100%;
+    word-wrap: break-word;
+    float: left;
+    padding: 1%;
+    border: 2px solid #ffffff;
+    height: auto;
+   }
+   .movie-nr{
+    width: 10%;
+   }
+  .movie1{
+    
+    height: auto;
+    width: 100%;
+    text-align: left;
+    padding: 1%;
+    border: 2px solid #ffffff;
+    background-color: #5f0505;
+    margin-inline: auto;
+ }
+
+
   /* Clear floats after the columns */
   section::after {
     content: "";
@@ -63,14 +118,20 @@ header {
   }
   /*menu bar */
   
+
+
+
+
+
+
 #navbar {
   background-color: #333;
   position: fixed;
   padding: 0.2%;
-  top: 160px;
+  top: -50px;
   width: 100%;
   display: block;
-  transition: top 0s;
+  transition: top 0.5s;
 }
 
 #navbar a {
@@ -87,6 +148,18 @@ header {
   background-color: #ddd;
   color: black;
 }
+
+ /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+ @media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}  
+
+
+
+
 
    /* The Overlay (background) */
 .overlay {
@@ -144,10 +217,4 @@ header {
     right: 35px;
   }
 } 
-  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-  @media (max-width: 600px) {
-    nav, article {
-      width: 100%;
-      height: auto;
-    }
-  }  
+ 
