@@ -4,7 +4,7 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="\Styles&JavaScript\pagesStyle.css">
+<link rel="stylesheet" href="\Styles\pagesStyle.css">
 
 </head>
 <body>
@@ -44,11 +44,29 @@
     </nav>
     
     <article>
-      <h1>London</h1>
-  
-      <div id="movie-wrapper" class="movie">
-                    
+
+      <div style="font-family:Comic Sans,cursive; padding: 1%;">Filtre
+        <label class="switch">
+          <input type="checkbox" onclick='handleClick(this);' id="filtreCheck" >
+            <span class="slider round"></span>
+        </label>
       </div>
+      
+      <div style="padding-top: 2% ;padding-bottom: 2%" id="Filtre-Options">
+        <button id="btn1" class="BtnFiltre" onclick="Action(1)">Action</button>
+        <button id="btn2" class="BtnFiltre" onclick="Action(2)" >Adventure</button>
+        <button id="btn3" class="BtnFiltre" onclick="Action(3)">Comdey</button>
+        <button id="btn4" class="BtnFiltre" onclick="Action(4)">Crime</button>
+        <button id="btn5"  class="BtnFiltre" onclick="Action(5)">Drama</button>
+        <button id="btn6" class="BtnFiltre" onclick="Action(6)">Fantasy</button>
+        <button id="btn7" class="BtnFiltre" onclick="Action(7)">History</button>
+        <button id="btn8" class="BtnFiltre" onclick="Action(8)">Horror</button>
+        <button id="btn9" class="BtnFiltre" onclick="Action(9)">Mystery</button>
+        <button id="btn10" class="BtnFiltre" onclick="Action(10)">Sci-Fi</button>
+        <button id="btn11" class="BtnFiltre" onclick="Action(11)">Thriller</button>
+      </div>
+      
+      <div id="movie-wrapper" class="movie"></div>
 
       <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
       <movie>
@@ -67,82 +85,12 @@
   </footer>
 
 
+
 </body>
 
-<script >
 
-const filme=[
-    {
-        title:"The Shawshank Redemption",
-        imageLink:""
-    },
-    {
-      title:"cev2cedddddddddddddddddddddddv2cedddddddddddddddddddddddv2cedddddddddddddddddddddddv2cedddddddddddddddddddddddv2cedddddddddddddddddddddddv2cedddddddddddddddddddddddv2cedddddddddddddddddddddddv2cedddddddddddddddddddddddv22",
-      imageLink:""
-    },
-    {
-      title:"cev3",
-      imageLink:""
-    }
-  ];
-  window.onload=function(){
-    const movielist=document.getElementById("movie-wrapper");
-    movielist.innerHTML="";
-    for(let i =0;i<filme.length;i++)
-    {
-      filme[i].imageLink="./Assets/"+filme[i].title+".jpg";
-      movielist.innerHTML+=movieComponet(i+1,filme[i]);
-    }
-  }
-  const movieComponet=function(index,movieInfo)
-  {
-    return `<div class="movie1">
-        <span class="movie-title">
-            ${movieInfo.title}
-        </span>
-    
-      <section>
+<script src="./JavaScripts/indexScript.js"></script>
 
-      <article1>
-        <h1>London</h1>
-        <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
-      </article1>
-
-      <nav1>
-          <img src="${movieInfo.imageLink}" class="movie-cover"></img>
-      </nav1>
-    </section>
-
-     
-      
-  
-    </div>`
-  }
-
-
-
-   /* Open when someone clicks on the span element */
-  function openNav() {
-      document.getElementById("myNav").style.width = "100%";
-    }
-    
-    /* Close when someone clicks on the "x" symbol inside the overlay */
-    function closeNav() {
-      document.getElementById("myNav").style.width = "0%";
-    } 
-
-  window.onscroll = function() {scrollFunction()};
-
-  function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-      document.getElementById("navbar").style.top = "0";
-    } else {
-      document.getElementById("navbar").style.top = "-50px";
-    }
-  }
-</script>
- 
 
 </html>
 
