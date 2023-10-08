@@ -1,4 +1,5 @@
 let filtru=",";
+let bfil=1;
 const filme=[
     {
         title:"The Shawshank Redemption",
@@ -87,6 +88,11 @@ const filme=[
     const genuri=['0',"action","adventure","comedy","crime","drama","fantacy","history","horror","mystery","Sci-Fi","thriler"];
     filtru=genuri[cv];
     genetareFilme();
+    const Filtru=document.getElementById("btn"+bfil);
+    Filtru.style.backgroundColor = "black";
+    const Filtru2=document.getElementById("btn"+cv);
+    Filtru2.style.backgroundColor = "#055d62";
+    bfil=cv;
   }
 
 

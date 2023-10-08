@@ -1,12 +1,13 @@
 
 header {
-    background-color: #666;
-    padding: 2%;
+    background-color: #262626;
+    padding: 1%;
     top:0;
     float: center;
     width: auto;
-    text-align: center;
-    font-size: 35px;
+    height :auto;
+    text-align: left;
+    font-size: 20px;
     color: white;
   }
   * {
@@ -89,8 +90,8 @@ header {
   }
   
   .BtnFiltre:hover {
-    background-color: #04AA6D;
-    color: rgb(0, 0, 0);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
   }
 
 
