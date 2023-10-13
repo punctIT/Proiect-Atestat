@@ -4,17 +4,31 @@ const filme=[
     {
         title:"The Shawshank Redemption",
         imageLink:"",
-        gendre:"action,drama"
+        gendre:"action,drama",
+        gen:["Actiune "," Drama"],
+        type:"Film",
+        
+        text:"Pe parcursul mai multor ani, doi condamnați formează o prietenie, căutând consolare și, în cele din urmă, răscumpărare prin compasiune de bază",
+        director:"Frank Darabont",
+        writers:"Stephen King ● Frank Darabont",
+        stars:"Tim Robbins Morgan ● Freeman Bob Gunton",
+        rating:10
+    
     },
     {
       title:"",
       imageLink:"",
-      gendre:"action,drama"
+      gendre:"action , drama",
+      gen:["Actiune","",""],
+      type:"Film",
+
     },
     {
       title:"cev3",
       imageLink:"",
-      gendre:"drama,"
+      gendre:"drama,",
+      gen:["Drama"],
+      type:"Film",
     }
   ];
 
@@ -39,35 +53,41 @@ const filme=[
     movielist.innerHTML="";
     for(let i =0;i<filme.length;i++)
     {
-      filme[i].imageLink="./Assets/"+filme[i].title+".jpg";
-      if(filme[i].gendre.includes(filtru))
-          movielist.innerHTML+=movieComponet(i+1,filme[i]);
+      filme[i].imageLink="./Assets/MovieImages/"+filme[i].title+".jpg";
+      if(filme[i].gendre.includes(filtru)){
+        movielist.innerHTML+=movieComponet(i+1,filme[i]);
+       
+      }
+          
     }
  }
+
 
   const movieComponet=function(index,movieInfo)
   {
     return `<div class="movie1">
-        <span class="movie-title">
-            ${movieInfo.title}
+        <span href="https://www.w3schools.com/" class="movie-title">
+         <a href="https://www.w3schools.com/" style="text-decoration:none">  <p  > ${movieInfo.title}</p> </a>
         </span>
-    
+         
       <section>
-
       <article1>
-        <h1>London</h1>
-        <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+        
+        <p > ${movieInfo.text}</p>
+        <p> Director: ${movieInfo.director}</p>
+        <textrounded>${movieInfo.type} </textrounded>
+        <textrounded>${movieInfo.gen }</textrounded>
       </article1>
 
       <nav1>
-          <img src="${movieInfo.imageLink}" class="movie-cover"></img>
+          <a href="https://www.w3schools.com/"><img  src="${movieInfo.imageLink}" class="movie-cover"></img></a>
       </nav1>
     </section>
     </div>`
   }
 
 
+  //genereare filme in fuctie de Filtru swich (da e On/Off)
 
   function handleClick(cb) {
     if(document.getElementById("filtreCheck").checked==true)
@@ -85,6 +105,8 @@ const filme=[
     }
   }
   
+  //generare filme in functie de genul selectat
+
   function Action(cv)
   {
     const genuri=['0',"action","adventure","comedy","crime","drama","fantacy","history","horror","mystery","Sci-Fi","thriler"];
@@ -97,7 +119,7 @@ const filme=[
     bfil=cv;
   }
 
-
+  //menirui
   function openNav() {
       document.getElementById("myNav").style.width = "100%";
     }

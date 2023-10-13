@@ -1,6 +1,7 @@
 
 header {
-    background-color: #262626;
+    background-color: #022C43;
+    background-image: linear-gradient(to right, #1B262C ,#0F4C75);
     padding: 1%;
     top:0;
     float: center;
@@ -20,10 +21,18 @@ header {
     padding: 0;
     width: 100vw;
     height: 100vh;
-    
+    background: #2d2d2d;
     font-family: Arial, Helvetica, sans-serif;
 }
- 
+textrounded {
+  background-color: rgb(0, 0, 0); 
+  font-weight: bold;
+  border-radius: 20px; 
+  width: auto; 
+  height: auto; 
+  padding: 5px 30px 5px 30px; 
+  font-size: 18px; 
+}
   
   /* Style the list inside the menu */
   nav ul {
@@ -46,7 +55,7 @@ header {
     width: 15%;
     height: auto;
     padding:0%;
-    background: #8e1515;
+    background: #2d2d2d;
     
   }
   movie {
@@ -74,25 +83,23 @@ header {
   }
 
   /* Green */
-  .BtnFiltre {
-    border: 1.5px solid rgb(255, 255, 255);
+  .BtnFiltre
+  {
+    background-color: rgb(255, 255, 255); /* Changing background color */
+    font-weight: bold; /* Making font bold */
+    font-family:Comic Sans;
     cursor: pointer;
     color: rgb(255, 255, 255);
     background-color: #000000;
-    font-size: 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family:Comic Sans;
-    padding-left: 3%;
-    padding-right: 3%;
-    border-radius: 8px
+    border-radius: 20px; /* Making border radius */
+    border-color: #000000;
+    width: auto; /* Making auto-sizable width */
+    height: auto; /* Making auto-sizable height */
+    padding: 5px 30px 5px 30px; /* Making space around letters */
+    font-size: 18px; /* Changing font size */
   }
-  
-  .BtnFiltre:hover {
-    background-color: #000000;
-    color: rgb(255, 255, 255);
-  }
+
+
 
 
   .switch {
@@ -170,12 +177,13 @@ header {
   nav1 {
     float:left;
     width:20%;
-    border: 2px solid #ffffff;
+    border: 2px solid #3a3a3a;
     height: 30%;
     float: center;
-    padding: 1%;
+   
+    padding: 1px;
     height: 10%; /* only for demonstration, should be removed */
-    background: #8e1515;
+    background-image: linear-gradient(to right, #053F5E , rgb(22, 22, 22));
    
   }
 
@@ -185,34 +193,43 @@ header {
     width: 80%;
     border-radius: 5px;
     height: 10%;
-    background-image: linear-gradient(to right, rgb(45, 44, 44) , rgb(22, 22, 22));
-    border: 2px solid #ffffff;
+    background-image: linear-gradient(to right, #053F5E , rgb(22, 22, 22));
+    
     background-color: #000000;
   }
   .movie-cover{
     width: 100%;
+    z-index:10;
     cursor: pointer;
+   
    }
    .movie-title{
     width: 100%;
     word-wrap: break-word;
     float: left;
+    font-family:Helvetica;
+    font-size: large;
+    font-weight: bold;
     padding: 1%;
     cursor: pointer;
-    border: 2px solid #ffffff;
+    
     height: auto;
    }
    .movie-nr{
     width: 10%;
    }
+   
   .movie1{
     
     height: auto;
     width: 100%;
     text-align: left;
+    font-family: Helvetica;
+    font-size: large;
     padding: 1%;
     border: 2px solid #ffffff;
-    background-color: #5f0505;
+    background-image: linear-gradient(to right, #053F5E , rgb(22, 22, 22));
+    background-color: #2a2a2a;
     margin-inline: auto;
  }
 
@@ -240,7 +257,9 @@ header {
 
 
 #navbar {
-  background-color: #333;
+  background-color: #ffffff;
+  z-index: 1;
+  background-image: linear-gradient(to right, #1B262C ,#0d3f60);
   position: fixed;
   padding: 0.2%;
   top: -50px;
