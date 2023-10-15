@@ -2,6 +2,7 @@ let filtruGen="";
 let filtruType="";
 let bfil=1;
 let bTypeFill=1;
+var originalbuttonbackcolor;
 const filme=[
     {
         title:"The Shawshank Redemption",
@@ -40,6 +41,8 @@ const filme=[
 
  
   window.onload=function(){
+    const Filtru=document.getElementById("btn1");
+    originalbuttonbackcolor=Filtru.style;
     if(document.getElementById("filtreCheck").checked==true)
     {
       const FiltreFilme=document.getElementById("Filtre-Options");
@@ -111,8 +114,8 @@ const filme=[
       filtruGen="";
       filtruType="";
     
-      Filtru.style.backgroundColor = "black";
-      Filtru1.style.backgroundColor="black";
+      Filtru.style=originalbuttonbackcolor;
+      Filtru1.style=originalbuttonbackcolor;
       genetareFilme();
     }
   }
@@ -131,7 +134,7 @@ const filme=[
       }
       genetareFilme();
       const Filtru=document.getElementById("btntype"+bTypeFill);
-      Filtru.style.backgroundColor = "black";
+      Filtru.style=originalbuttonbackcolor;
       const Filtru2=document.getElementById("btntype"+cv);
       Filtru2.style.backgroundColor = "#055d62";
       bTypeFill=cv;
@@ -143,7 +146,7 @@ const filme=[
     filtruGen=genuri[cv];
     genetareFilme();
     const Filtru=document.getElementById("btn"+bfil);
-    Filtru.style.backgroundColor = "black";
+    Filtru.style=originalbuttonbackcolor;
     const Filtru2=document.getElementById("btn"+cv);
     Filtru2.style.backgroundColor = "#055d62";
     bfil=cv;

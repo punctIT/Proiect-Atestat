@@ -17,6 +17,7 @@ header {
   }
 
   html , body {
+   
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -47,6 +48,7 @@ textrounded {
     padding-bottom: 2%;
     padding-left: 10%;
     width: 85%;
+   
     background-color: #000000;
     height: auto;
   }
@@ -97,8 +99,12 @@ textrounded {
     height: auto; /* Making auto-sizable height */
     padding: 5px 30px 5px 30px; /* Making space around letters */
     font-size: 18px; /* Changing font size */
+    transition-duration: 0.4s;
   }
-
+  .BtnFiltre:hover{
+    background-color: #00789c; /* Green */
+    color: white;
+  }
 
 
 
@@ -194,6 +200,7 @@ textrounded {
     border-radius: 5px;
     height: 10%;
     background-image: linear-gradient(to right, #053F5E , rgb(22, 22, 22));
+    
     background-color: #000000;
   }
   .movie-cover{
