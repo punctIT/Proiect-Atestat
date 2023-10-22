@@ -18,26 +18,30 @@ const filme=[
         director:"Frank Darabont",
         writers:"Stephen King ● Frank Darabont",
         stars:"Tim Robbins Morgan ● Freeman Bob Gunton",
+        streaming:["PrimeVideo"],
      
     
     },
     {
-      title:"Star Wars",
+      title:"Star Wars Episode I  The Phantom Menace",
       imageLink:"",
-      gendre:"action , drama",
-      gen:["Actiune","Drama"],
-      rating:1,
+      gendre:"action,fantacy,adventure",
+      gen:["Actiune ","Aventura","Fantezie"],
+      year:1999,
+      rating:5,
       ratingImage:"",
-      type:"Serial",
-
-    },
-    {
-      title:"cev3",
-      imageLink:"",
-      gendre:"drama,",
-      gen:["Drama"],
       type:"Film",
-    }
+      
+      text:"Doi Jedi scapă de o blocadă ostilă pentru a găsi aliați și dau peste un băiat care ar putea aduce echilibrul Forței, dar Sithul adormit de mult reapar pentru a-și revendica gloria inițială.",
+      director:"George Lucas",
+      writers:"George Lucas",
+      stars:"Ewan McGregor ● Liam Neeson  ●  Natalie Portman",
+     
+      streaming:["DisneyPlus","PrimeVideo"],
+   
+  
+  },
+
   ];
 
  
@@ -54,11 +58,13 @@ const filme=[
       FiltreFilme.style.display = 'none';
     }
     genetareFilme();
+    
     const search=document.getElementById("SearchMenu")
     for(let i =0; i<filme.length;i++)
     {
-      search.innerHTML+=searchList(i+1,filme[i]);
+      search.innerHTML+=(` <li><a href="#">${filme[i].title}</a></li>`)
     }
+    
   }
 
  function genetareFilme()
@@ -71,16 +77,30 @@ const filme=[
       filme[i].ratingImage="./Assets/RatingImages/stars"+filme[i].rating+".png";
       if(filme[i].gendre.includes(filtruGen)&&filme[i].type.includes(filtruType)){
         movielist.innerHTML+=movieComponet(i+1,filme[i]);
-       
-      }   
+        let cv="art"+(i+1);
+        const movielist1=document.getElementById(cv);
+        
+        for(let q=0;q<filme[i].gen.length;q++)
+        {
+          movielist1.innerHTML+=(` <textrounded>${filme[i].gen[q]}</textrounded>`);
+        }
+        
+        movielist1.innerHTML+=(`<p></p`);  
+      
+        for(let q=0;q<filme[i].streaming.length;q++)
+        {
+          movielist1.innerHTML+=(`<a href="https://www.${filme[i].streaming[q]}.com" target="_blank"><img class="minimage" src="./Assets/StreamingPlatformsIcons/${filme[i].streaming[q]}.png"></img></a>`)
+        }
+      }
+      
+      
+      
     }
+
  }
- const searchList=function(i,movieInfo)
- {
-    return `
-        <li><a href="#">${movieInfo.title}</a></li>
-    `
- }
+
+
+
 
   const movieComponet=function(index,movieInfo)
   {
@@ -90,17 +110,14 @@ const filme=[
         </span>
          
       <section>
-      <article1>
-      <img class="movie-rating"  src="${movieInfo.ratingImage}" ></img>
+      <article1 id="art${index}">
+        <img class="movie-rating"  src="${movieInfo.ratingImage}" ></img>
         <p > ${movieInfo.text}</p>
         <p> Director: ${movieInfo.director}</p>
         <p> Scriitori: ${movieInfo.writers}</p>
         <p> Staruri: ${movieInfo.stars}</p>
         <textrounded>${movieInfo.type} </textrounded>
-        <textrounded>${movieInfo.gen }</textrounded>
-
       </article1>
-
       <nav1>
           <a href="https://www.w3schools.com/"><img  src="${movieInfo.imageLink}" class="movie-cover"></img></a>
       </nav1>

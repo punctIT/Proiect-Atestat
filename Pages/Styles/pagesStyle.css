@@ -35,7 +35,12 @@ textrounded {
   padding: 5px 30px 5px 30px; 
   font-size: 18px; 
 }
+.minimage{
+  height: 9%;
+  width: 9%;
+  padding: 1%;
   
+}
   /* Style the list inside the menu */
   nav ul {
     list-style-type: none;
@@ -89,7 +94,7 @@ textrounded {
 
   article1 {
     float: right;
-    padding: 20px;
+    padding: 2%;
     width: 80%;
     border-radius: 5px;
     height: 10%;
