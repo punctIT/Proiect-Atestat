@@ -5,6 +5,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="./Styles/pagesStyle.css">
+<link rel="stylesheet" href="./Styles/menu&overlay.css">
+<link rel="stylesheet" href="./Styles/buttons&filtre.css">
 
 </head>
 <body>
@@ -32,9 +34,9 @@
     </div> 
     <nav>
       <ul>
-        <li><a href="https://www.w3schools.com/">London</a></li>
-        <li><a href="https://www.w3schools.com/">Paris</a></li>
-        <li><a href="https://www.w3schools.com/">Tokyo</a></li>
+        <h2>Cauta un film</h2>
+        <input type="text" id="mySearch" onkeyup="searchFunction()"placeholder="Search..." title="Type in a category">
+        <ul   id="SearchMenu"> </ul>
         
       </ul>
     </nav>
@@ -49,22 +51,22 @@
 
       <div style="padding-top: 1% ;padding-bottom: 2%" id="Filtre-Options">
        
-        <button  id="btn1" class="BtnFiltre" onclick="ActionGen(1)">Action</button>
-          <button id="btn2" class="BtnFiltre" onclick="ActionGen(2)" >Adventure</button>
-          <button id="btn3" class="BtnFiltre" onclick="ActionGen(3)">Comdey</button>
-          <button id="btn4" class="BtnFiltre" onclick="ActionGen(4)">Crime</button>
+        <button  id="btn1" class="BtnFiltre" onclick="ActionGen(1)">Actiune</button>
+          <button id="btn2" class="BtnFiltre" onclick="ActionGen(2)" >Aventura</button>
+          <button id="btn3" class="BtnFiltre" onclick="ActionGen(3)">Comedie</button>
+          <button id="btn4" class="BtnFiltre" onclick="ActionGen(4)">Crima</button>
           <button id="btn5"  class="BtnFiltre" onclick="ActionGen(5)">Drama</button>
-          <button id="btn6" class="BtnFiltre" onclick="ActionGen(6)">Fantasy</button>
-          <button id="btn7" class="BtnFiltre" onclick="ActionGen(7)">History</button>
+          <button id="btn6" class="BtnFiltre" onclick="ActionGen(6)">Fantezie</button>
+          <button id="btn7" class="BtnFiltre" onclick="ActionGen(7)">Istorie</button>
           <button id="btn8" class="BtnFiltre" onclick="ActionGen(8)">Horror</button>
-          <button id="btn9" class="BtnFiltre" onclick="ActionGen(9)">Mystery</button>
+          <button id="btn9" class="BtnFiltre" onclick="ActionGen(9)">Mister</button>
           <button id="btn10" class="BtnFiltre" onclick="ActionGen(10)">Sci-Fi</button>
           <button id="btn11" class="BtnFiltre" onclick="ActionGen(11)">Thriller</button>
-          <button id="btn12" class="BtnFiltre" onclick="ActionGen(12)">All</button>
+          <button id="btn12" class="BtnFiltre" onclick="ActionGen(12)">Toate</button>
        <p>
         <button id="btntype1" class="BtnFiltre" onclick="ActionType(1)">Film</button>
         <button id="btntype2" class="BtnFiltre" onclick="ActionType(2)">Serial</button>
-        <button id="btntype3" class="BtnFiltre" onclick="ActionType(3)">All</button>
+        <button id="btntype3" class="BtnFiltre" onclick="ActionType(3)">Toate</button>
        </p>
       </div>
       

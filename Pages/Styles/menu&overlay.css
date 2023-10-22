@@ -1,0 +1,139 @@
+#navbar {
+    background-color: #ffffff;
+    z-index: 2;
+    background-image: linear-gradient(to right, #1B262C ,#0d3f60);
+    position: fixed;
+    padding: 0.2%;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.5s;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+   /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+   @media (max-width: 600px) {
+    nav, article {
+      width: 100%;
+      height: auto;
+    }
+  }  
+  
+  
+  input {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    
+  }
+  #mySearch {
+    width: 100%;
+    font-size: 18px;
+    
+    padding: 11px;
+    overflow: scroll;
+    border: 1px solid #7b0e0e;
+  }
+  
+  /* Style the navigation menu inside the left column */
+  #SearchMenu {
+    list-style-type: none;
+    padding: 0;
+    
+
+    margin: 0;
+  }
+  
+  #SearchMenu li a {
+    padding: 12px;
+    text-decoration: none;
+    overflow: scroll;
+    color: rgb(255, 255, 255);
+    display: block
+  }
+  
+  #SearchMenu li a:hover {
+    background-color: #272727;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  
+     /* The Overlay (background) */
+  .overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  } 
+   

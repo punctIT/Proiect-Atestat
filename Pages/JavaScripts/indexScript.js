@@ -9,6 +9,7 @@ const filme=[
         imageLink:"",
         gendre:"action,drama",
         gen:["Actiune "," Drama"],
+        year:1994,
         rating:5,
         ratingImage:"",
         type:"Film",
@@ -21,10 +22,10 @@ const filme=[
     
     },
     {
-      title:"",
+      title:"Star Wars",
       imageLink:"",
       gendre:"action , drama",
-      gen:["Actiune","",""],
+      gen:["Actiune","Drama"],
       rating:1,
       ratingImage:"",
       type:"Serial",
@@ -53,7 +54,13 @@ const filme=[
       FiltreFilme.style.display = 'none';
     }
     genetareFilme();
+    const search=document.getElementById("SearchMenu")
+    for(let i =0; i<filme.length;i++)
+    {
+      search.innerHTML+=searchList(i+1,filme[i]);
+    }
   }
+
  function genetareFilme()
  {
     const movielist=document.getElementById("movie-wrapper");
@@ -65,11 +72,15 @@ const filme=[
       if(filme[i].gendre.includes(filtruGen)&&filme[i].type.includes(filtruType)){
         movielist.innerHTML+=movieComponet(i+1,filme[i]);
        
-      }
-          
+      }   
     }
  }
-
+ const searchList=function(i,movieInfo)
+ {
+    return `
+        <li><a href="#">${movieInfo.title}</a></li>
+    `
+ }
 
   const movieComponet=function(index,movieInfo)
   {
@@ -168,5 +179,22 @@ const filme=[
       document.getElementById("navbar").style.top = "0";
     } else {
       document.getElementById("navbar").style.top = "-50px";
+    }
+  }
+
+  //search
+  function searchFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("mySearch");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("SearchMenu");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
     }
   }
