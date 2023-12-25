@@ -3,6 +3,8 @@ let filtruType="";
 let bfil=1;
 let bTypeFill=1;
 var originalbuttonbackcolor;
+
+
 const filme=[
     {
         title:"The Shawshank Redemption",
@@ -18,7 +20,7 @@ const filme=[
         director:"Frank Darabont",
         writers:"Stephen King ● Frank Darabont",
         stars:"Tim Robbins Morgan ● Freeman Bob Gunton",
-        streaming:["PrimeVideo"],
+        streaming:["PrimeVideo","netflix"],
      
     
     },
@@ -32,16 +34,82 @@ const filme=[
       ratingImage:"",
       type:"Film",
       
-      text:"Doi Jedi scapă de o blocadă ostilă pentru a găsi aliați și dau peste un băiat care ar putea aduce echilibrul Forței, dar Sithul adormit de mult reapar pentru a-și revendica gloria inițială.",
+      text:"Doi Jedi scapă de o blocadă ostilă pentru a găsi aliați și dau peste un băiat care ar putea aduce echilibrul Forței, dar Sithul adormit de mult reapare pentru a-și revendica gloria inițială.",
       director:"George Lucas",
       writers:"George Lucas",
       stars:"Ewan McGregor ● Liam Neeson  ●  Natalie Portman",
-     
       streaming:["DisneyPlus","PrimeVideo"],
    
   
-  },
+    },
+    {
+      title:"Breaking Bad",
+      imageLink:"",
+      gendre:"crime,drama,thriler",
+      gen:["Crima "," Drama", "Thriler"],
+      year:2008,
+      rating:5,
+      ratingImage:"",
+      type:"Serial",
+      
+      text:"Un profesor de chimie diagnosticat cu cancer pulmonar inoperabil apelează la fabricarea și vânzarea de metamfetamină cu un fost student pentru a-și asigura viitorul familiei.",
+      director:"Vince Gilligan",
+      writers:"Vince Gilligan",
+      stars:"Bryan Cranston ● Aaron Paul ● Anna Gunn",
+      streaming:["Netflix"],
+  
 
+    },
+    {
+      title:"IT",
+      imageLink:"",
+      gendre:"horror",
+      gen:["Horor"],
+      year:2017,
+      rating:4,
+      ratingImage:"",
+      type:"Film",
+      
+      text:"În vara anului 1989, un grup de copii s-au unit pentru a distruge un monstru care își schimbă forma, care se deghizează în clovn și care ucide copiii din Derry, micul oraș din Maine.",
+      director:"Andy Muschietti",
+      writers:"Chase Palmer ● Cary Joji Fukunaga ● Gary Dauberman",
+      stars:"Bill Skarsgård ● Jaeden Martell ● Finn Wolfhard",
+      streaming:["Netflix", "PrimeVideo"],
+  
+
+    },
+    {
+      title:"IT Chapter Two",
+      imageLink:"",
+      gendre:"horror,drama,fantasy",
+      gen:["Horor","Drama","Fantezie"],
+      year:2019,
+      rating:3,
+      ratingImage:"",
+      type:"Film",
+      
+      text:"La douăzeci și șapte de ani de la prima lor întâlnire cu terifianta Pennywise, Clubul Perdanților au crescut și s-au îndepărtat, până când un telefon devastator îi aduce înapoi.",
+      director:"Andy Muschietti",
+      writers:"Stephen King ● Gary Dauberman",
+      stars:" Jessica Chastain ● James McAvoy ● Bill Hader",
+      streaming:["Netflix", "PrimeVideo"],
+    },
+    {
+      title:"The Walking Dead",
+      imageLink:"",
+      gendre:"horror,drama,thriler",
+      gen:["Horor","Drama","Thriler"],
+      year:2010,
+      rating:5,
+      ratingImage:"",
+      type:"Serial",
+      
+      text:"Adjunctul șeriful Rick Grimes se trezește din comă pentru a afla că lumea este în ruine și trebuie să conducă un grup de supraviețuitori pentru a rămâne în viață..",
+      director:"Frank Darabont",
+      writers:"Frank Darabont",
+      stars:"Andrew Lincoln ● Norman Reedus ● Melissa McBride",
+      streaming:["Netflix", "HBOMax"],
+    },
   ];
 
  
@@ -58,11 +126,11 @@ const filme=[
       FiltreFilme.style.display = 'none';
     }
     genetareFilme();
-    
+    //searchmenu
     const search=document.getElementById("SearchMenu")
     for(let i =0; i<filme.length;i++)
     {
-      search.innerHTML+=(` <li><a href="#">${filme[i].title}</a></li>`)
+      search.innerHTML+=(` <li><a href="./Pages/${filme[i].title}.html" target="_blank">${filme[i].title}</a></li>`)
     }
     
   }
@@ -106,7 +174,7 @@ const filme=[
   {
     return `<div class="movie1">
         <span  class="movie-title">
-        <p  > <a href="https://www.w3schools.com/" style="text-decoration:none">  ${movieInfo.title} </a></p>
+        <p  > <a href="./Pages/${movieInfo.title}.html" target="_blank" style="text-decoration:none">  ${movieInfo.title} (${movieInfo.year}) </a></p>
         </span>
          
       <section>
@@ -114,24 +182,26 @@ const filme=[
         <img class="movie-rating"  src="${movieInfo.ratingImage}" ></img>
         <p > ${movieInfo.text}</p>
         <p> Director: ${movieInfo.director}</p>
-        <p> Scriitori: ${movieInfo.writers}</p>
-        <p> Staruri: ${movieInfo.stars}</p>
+        <p> Scriitor: ${movieInfo.writers}</p>
+        <p> Actori: ${movieInfo.stars}</p>
         <textrounded>${movieInfo.type} </textrounded>
       </article1>
       <nav1>
-          <a href="https://www.w3schools.com/"><img  src="${movieInfo.imageLink}" class="movie-cover"></img></a>
+          <a href="./Pages/${movieInfo.title}.html" target="_blank" ><img  src="${movieInfo.imageLink}" class="movie-cover"></img></a>
       </nav1>
     </section>
     </div>`
   }
 
 
-  //genereare filme in fuctie de Filtru swich (da e On/Off)
+  //genereare filme in fuctie de Filtru swich (da e On/Off) 
 
   function handleClick(cb) {
     if(document.getElementById("filtreCheck").checked==true)
     {
       const FiltreFilme=document.getElementById("Filtre-Options");
+      ActionType(3);
+      ActionGen(12);
       FiltreFilme.style.display = 'block';
     }
     else{
@@ -168,6 +238,8 @@ const filme=[
       bTypeFill=cv;
 
   }
+  //generare in fucntie de butonul apasat
+  // colorare specifica buton
   function ActionGen(cv)
   {
     const genuri=['0',"action","adventure","comedy","crime","drama","fantacy","history","horror","mystery","Sci-Fi","thriler",""];

@@ -4,10 +4,9 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./Styles/pagesStyle.css">
-<link rel="stylesheet" href="./Styles/menu&overlay.css">
-<link rel="stylesheet" href="./Styles/buttons&filtre.css">
-
+<link rel="stylesheet" href="./Pages/Styles/pagesStyle.css">
+<link rel="stylesheet" href="./Pages/Styles/menu&overlay.css">
+<link rel="stylesheet" href="./Pages/Styles/buttons&filtre.css">
 </head>
 <body>
 
@@ -32,7 +31,8 @@
     <div id="navbar">
       <span style="font-size:30px ;color:white;padding: 1%;;cursor:pointer" onclick="openNav()">&#9776;</span>
     </div> 
-    <nav>
+ <!-- search menu generare-->
+    <nav style="overflow: auto;">
       <ul>
         <h2>Cauta un film</h2>
         <input type="text" id="mySearch" onkeyup="searchFunction()"placeholder="Search..." title="Type in a category">
@@ -40,6 +40,8 @@
         
       </ul>
     </nav>
+
+
     <article>
 
       <div style="font-family:Comic Sans,cursive; padding: 1%;" >Filtre
@@ -50,8 +52,8 @@
       </div>
      
       <div style="padding-top: 1% ;padding-bottom: 2%" id="Filtre-Options">
-        <p>Gen</p>
-        <button  id="btn1" class="BtnFiltre" onclick="ActionGen(1)">Actiune</button>
+        <p style="font-weight: bold;">Gen</p>
+          <button  id="btn1" class="BtnFiltre" onclick="ActionGen(1)">Actiune</button>
           <button id="btn2" class="BtnFiltre" onclick="ActionGen(2)" >Aventura</button>
           <button id="btn3" class="BtnFiltre" onclick="ActionGen(3)">Comedie</button>
           <button id="btn4" class="BtnFiltre" onclick="ActionGen(4)">Crima</button>
@@ -63,7 +65,7 @@
           <button id="btn10" class="BtnFiltre" onclick="ActionGen(10)">Sci-Fi</button>
           <button id="btn11" class="BtnFiltre" onclick="ActionGen(11)">Thriller</button>
           <button id="btn12" class="BtnFiltre" onclick="ActionGen(12)">Toate</button>
-          <p>Tip</p>
+          <p style="font-weight: bold;">Tip</p>
           <p>
             <button id="btntype1" class="BtnFiltre" onclick="ActionType(1)">Film</button>
             <button id="btntype2" class="BtnFiltre" onclick="ActionType(2)">Serial</button>
