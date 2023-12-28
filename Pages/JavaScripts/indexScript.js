@@ -4,6 +4,7 @@ let bfil=1;
 let bTypeFill=1;
 var originalbuttonbackcolor;
 
+let istart=0,icnt=0;
 
 const filme=[
     {
@@ -19,7 +20,7 @@ const filme=[
         text:"Pe parcursul mai multor ani, doi condamnați formează o prietenie, căutând consolare și, în cele din urmă, răscumpărare prin compasiune de bază",
         director:"Frank Darabont",
         writers:"Stephen King ● Frank Darabont",
-        stars:"Tim Robbins Morgan ● Freeman Bob Gunton",
+        stars:"Tim Robbins ● Morgan Freeman ● Bob Gunton",
         streaming:["PrimeVideo","netflix"],
      
     
@@ -110,6 +111,23 @@ const filme=[
       stars:"Andrew Lincoln ● Norman Reedus ● Melissa McBride",
       streaming:["Netflix", "HBOMax"],
     },
+    {
+      title:"Reacher",
+      imageLink:"",
+      gendre:"action,crime,drama",
+      gen:["Action","Crime","Drama"],
+      year:2022,
+      rating:5,
+      ratingImage:"",
+      type:"Serial",
+    
+      text:"Jack Reacher a fost arestat pentru crimă și acum poliția are nevoie de ajutorul lui. Bazat pe cărțile lui Lee Child.",
+      director:"Nick Santora",
+      writers:"Nick Santora",
+      stars:" Alan Ritchson ● Maria Sten ● Malcolm Goodwin",
+      streaming:["PrimeVideo"],
+    },
+    
   ];
 
  
@@ -134,25 +152,33 @@ const filme=[
     }
     
   }
-
+let aux=0,stack = [],aux2=0,start=-1;
  function genetareFilme()
  {
     const movielist=document.getElementById("movie-wrapper");
     movielist.innerHTML="";
-    for(let i =0;i<filme.length;i++)
+    icnt=0;
+    for(let i = istart;i<filme.length;i++)
     {
+      if(icnt==2)
+      {
+        aux2=aux;
+        aux=i;
+        break;
+      }
       filme[i].imageLink="./Assets/MovieImages/"+filme[i].title+".jpg";
       filme[i].ratingImage="./Assets/RatingImages/stars"+filme[i].rating+".png";
       if(filme[i].gendre.includes(filtruGen)&&filme[i].type.includes(filtruType)){
         movielist.innerHTML+=movieComponet(i+1,filme[i]);
         let cv="art"+(i+1);
         const movielist1=document.getElementById(cv);
-        
+        icnt++;
+        if(start==-1)
+          start=i,stack.push(i);
         for(let q=0;q<filme[i].gen.length;q++)
         {
           movielist1.innerHTML+=(` <textrounded>${filme[i].gen[q]}</textrounded>`);
         }
-        
         movielist1.innerHTML+=(`<p></p`);  
       
         for(let q=0;q<filme[i].streaming.length;q++)
@@ -160,7 +186,6 @@ const filme=[
           movielist1.innerHTML+=(`<a href="https://www.${filme[i].streaming[q]}.com" target="_blank"><img class="minimage" src="./Assets/StreamingPlatformsIcons/${filme[i].streaming[q]}.png"></img></a>`)
         }
       }
-      
       
       
     }
@@ -197,6 +222,8 @@ const filme=[
   //genereare filme in fuctie de Filtru swich (da e On/Off) 
 
   function handleClick(cb) {
+   
+    clearStack(stack);
     if(document.getElementById("filtreCheck").checked==true)
     {
       const FiltreFilme=document.getElementById("Filtre-Options");
@@ -214,6 +241,7 @@ const filme=[
     
       Filtru.style=originalbuttonbackcolor;
       Filtru1.style=originalbuttonbackcolor;
+      istart=0;
       genetareFilme();
     }
   }
@@ -221,6 +249,7 @@ const filme=[
   //generare filme in functie de genul selectat
   function ActionType(cv)
   {
+      clearStack(stack);
       if(cv==1){
           filtruType="Film";
       }
@@ -230,6 +259,7 @@ const filme=[
       if(cv==3) {
         filtruType="";
       }
+      istart=0;
       genetareFilme();
       const Filtru=document.getElementById("btntype"+bTypeFill);
       Filtru.style=originalbuttonbackcolor;
@@ -242,8 +272,10 @@ const filme=[
   // colorare specifica buton
   function ActionGen(cv)
   {
+    clearStack(stack);
     const genuri=['0',"action","adventure","comedy","crime","drama","fantacy","history","horror","mystery","Sci-Fi","thriler",""];
     filtruGen=genuri[cv];
+    istart=0;
     genetareFilme();
     const Filtru=document.getElementById("btn"+bfil);
     Filtru.style=originalbuttonbackcolor;
@@ -286,4 +318,37 @@ const filme=[
         li[i].style.display = "none";
       }
     }
+  }
+// butonanele next si previous bazate pe un vector de tip stiva
+function clearStack(s)
+{
+    start=-1;
+    aux=aux2=0;
+    while (s.length != 0) {
+        s.pop();
+    }
+    return;
+}
+  function Next()
+  {
+      
+      istart=aux;
+      let cv=stack.pop();
+      if(aux2!=cv&&aux!=aux2){
+        stack.push(cv);
+        stack.push(aux2);
+      }
+      else stack.push(cv);
+      console.log(stack); 
+      genetareFilme();
+  }
+  function Previous()
+  {
+      istart=stack.pop();
+      aux=istart;
+      if(istart==start)
+        stack.push(start);
+      console.log(stack); 
+      genetareFilme();
+    
   }
