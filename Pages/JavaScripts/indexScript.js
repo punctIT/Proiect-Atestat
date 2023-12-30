@@ -28,8 +28,8 @@ const filme=[
     {
       title:"Star Wars Episode I  The Phantom Menace",
       imageLink:"",
-      gendre:"action,fantacy,adventure",
-      gen:["Actiune ","Aventura","Fantezie"],
+      gendre:"action,fantacy,adventure,sci-fi",
+      gen:["Actiune ","Aventura","Fantezie","Sci-Fi"],
       year:1999,
       rating:5,
       ratingImage:"",
@@ -127,6 +127,104 @@ const filme=[
       stars:" Alan Ritchson ● Maria Sten ● Malcolm Goodwin",
       streaming:["PrimeVideo"],
     },
+    {
+      title:"1917",
+      imageLink:"",
+      gendre:"action,drama,history",
+      gen:["Actiune","Drama","Istorie","Razboi"],
+      year:2019,
+      rating:5,
+      ratingImage:"",
+      type:"Film",
+    
+      text:"In timpul Primului Război Mondial, în aprilie 1917, doi tineri soldaţi dintr-un regiment britanic primesc ordinul să parcurgă „no man's land”-ul lăsat în urmă de nemţii aparent în retragere şi să transmită un mesaj comandantului unui alt regiment britanic gata să atace.",
+      director:"Sam Mendes",
+      writers:"Sam Mendes ● Krysty Wilson-Cairns",
+      stars:" Dean-Charles ● Chapman George  ● MacKay Daniel Mays  ",
+      streaming:["Netflix"],
+    },
+    {
+      title:"A Nightmare On Elm Street",
+      imageLink:"",
+      gendre:"horror",
+      gen:["Horor"],
+      year:1984,
+      rating:5,
+      ratingImage:"",
+      type:"Film",
+    
+      text:"Nancy are un coșmar teribil legat de o figură înspăimântătoare care îi va pătrunde în viață. Figura este cea a lui Freddy Krugger și a făcut carieră cu ajutorul celebrelor degete lungi, sub formă de cuțite, de la mâna dreaptă.",
+      director:"Wes Craven",
+      writers:"Wes Craven",
+      stars:"Heather Langenkamp ● Johnny Depp ● Robert Englund",
+      streaming:["Netflix","Hbomax"],
+    },
+      
+    {
+      title:"American Made",
+      imageLink:"",
+      gendre:"action,comedy,crime",
+      gen:["Actiune","Comedie","Crima"],
+      year:2017,
+      rating:4,
+      ratingImage:"",
+      type:"Film",
+
+      text:"Barry Seal: Trafic în stil American e povestea incredibil de adevărată a unui pilot care a reușit să conducă una din cele mai mari operațiuni sub acoperire derulate vreodată de CIA.",
+      director:"Doung Liman",
+      writers:"Gary Spinelii",
+      stars:"Tom Cruise ● Domhnall Gleeson ● Sarah Wright",
+      streaming:["PrimeVideo","netflix"],
+    },
+    {
+      title:"Avatar",
+      imageLink:"",
+      gendre:"action,adventure,fantacy,sci-fi",
+      gen:["Actiune","Aventura","Fantezie","Sci-Fi"],
+      year:2009,
+      rating:4,
+      ratingImage:"",
+      type:"Film",
+    
+      text:"200 de ani în viitor, Jake, un veteran de război paralizat, este adus împreună cu alți pământeni pe planeta Pandora. Aceasta este locuită de o rasă umanoidă, Na'vi, o veche civilizație deloc încântată de oaspeți. Jake și semenii săi trebuie să lupte pentru a-și găsi locul pe luxurianta Pandora și între timp tânărul se îndrăgostește de Neytiri, o localnică. ",
+      director:"James Cameron",
+      writers:"James Cameron",
+      stars:"Sam Worthington ● Zoe Saldana ● Sigourney Weaver",
+      streaming:["DisneyPlus","Hbomax"],
+    },
+    {
+      title:"Avatar The Way of Water",
+      imageLink:"",
+      gendre:"action,adventure,fantacy,sci-fi",
+      gen:["Actiune","Aventura","Fantezie","Sci-Fi"],
+      year:2022,
+      rating:4,
+      ratingImage:"",
+      type:"Film",
+    
+      text:"Situat la mai bine de un deceniu după evenimentele din primul film, „Avatar: Calea apei” începe să spună povestea familiei Sully (Jake, Neytiri și copiii lor), necazurile care îi urmăresc, lucrurile pe care sunt dispuși să le facă pentru a se proteja reciproc, bătăliile pe care le duc pentru a rămâne în viață și tragediile pe care le îndură.",
+      director:"James Cameron",
+      writers:"James Cameron ●  Rick Jaffa ● Amanda Silver ",
+      stars:"Sam Worthington ● Zoe Saldana ● Sigourney Weaver",
+      streaming:["DisneyPlus","Hbomax"],
+    },
+    {
+      title:"Bad Boys",
+      imageLink:"",
+      gendre:"action,comedy,crima",
+      gen:["Actiune","Comedie","Crima"],
+      year:1995,
+      rating:3,
+      ratingImage:"",
+      type:"Film",
+    
+      text:"Intr-o noapte torida de vara, este furata o cantitate foarte mare de heroina in valoare de 100 de milioane de dolari, chiar din incaperea destinata depozitarii dovezilor. Marcus Burnett (Martin Lawrence) si Mike Lowrey, doi detectivi cam trasniti vad in rezolvarea acestui caz sansa vietii lor. Ei trebuie sa recupereze drogurile inainte ca unitatea lor sa ajunga de rasul lumii",
+      director:"Michael Bay",
+      writers:"George Gallo ● Michael Barrie ● Jim Mulholland",
+      stars:"Will Smith ● Martin Lawrence ● Lisa Boyle",
+      streaming:["netflix","hbomax"],
+    },
+    
     
   ];
 
@@ -160,7 +258,7 @@ let aux=0,stack = [],aux2=0,start=-1;
     icnt=0;
     for(let i = istart;i<filme.length;i++)
     {
-      if(icnt==2)
+      if(icnt==5)//cate filme sa fie generate pe o pg
       {
         aux2=aux;
         aux=i;
@@ -273,7 +371,7 @@ let aux=0,stack = [],aux2=0,start=-1;
   function ActionGen(cv)
   {
     clearStack(stack);
-    const genuri=['0',"action","adventure","comedy","crime","drama","fantacy","history","horror","mystery","Sci-Fi","thriler",""];
+    const genuri=['0',"action","adventure","comedy","crime","drama","fantacy","history","horror","mystery","sci-fi","thriler",""];
     filtruGen=genuri[cv];
     istart=0;
     genetareFilme();
@@ -341,6 +439,8 @@ function clearStack(s)
       else stack.push(cv);
       console.log(stack); 
       genetareFilme();
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
   }
   function Previous()
   {
@@ -350,5 +450,7 @@ function clearStack(s)
         stack.push(start);
       console.log(stack); 
       genetareFilme();
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0;
     
   }

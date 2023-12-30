@@ -1,36 +1,5 @@
-{
-	title:"3%",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
 
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
-{
-	title:"1917",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"10 Cloverfield Lane ",
@@ -66,22 +35,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"A Nightmare On Elm Street",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"A Quiet Place",
@@ -169,58 +122,7 @@
 },
 
 {
-	title:"American Made",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
 	title:"Annihliation",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Army of Deads",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Army of Thives",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -254,7 +156,7 @@
 },
 
 {
-	title:"Arrow ",
+	title:"Arrow",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -270,90 +172,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Avatar",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Avatar The Way of Water",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Avengers Age of Ultron",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Avengers Endgame",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Avengers Infinity War",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Awakenings",
@@ -457,22 +275,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Batman v Superman",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Better Call Saul",
@@ -491,59 +293,9 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Between",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Big Daddy",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Black Summer",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Blue Beetle",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -627,56 +379,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Captain America Civil War",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Captain America The First Avenger",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Captain America The Winter Soldier ",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Captain Phillips",
@@ -797,22 +499,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Chernobyl Diaries ",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Children of Men ",
@@ -933,93 +619,10 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Daddy's Home",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
 
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Daddy's Home 2",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Dawn of the Dead",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Dawn of the planet of the apes",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Day of the Dead ",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"DayBreak",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -1052,39 +655,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Doctor Strange",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Doctor Strange in the Multiverse of Madness",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Dog",
@@ -1308,40 +878,6 @@
 },
 
 {
-	title:"Friday the 13th A New Beginning",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Friday the 13th Jason Lives Part 6",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
 	title:"Friday the 13th Part 2",
 	imageLink:"",
 	gendre:" ",
@@ -1375,39 +911,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Friday the 13th The Final Chapter",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Friday the 13th The New Blood Part 7 ",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Fury",
@@ -1494,22 +997,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Ghosted",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Going in style",
@@ -1580,23 +1067,6 @@
 },
 
 {
-	title:"Green Lantern",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
 	title:"Groundhog Day",
 	imageLink:"",
 	gendre:" ",
@@ -1648,7 +1118,7 @@
 },
 
 {
-	title:"Guardians of The Galaxy Vol.2",
+	title:"Guardians of The Galaxy Vol 2",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -1665,7 +1135,7 @@
 },
 
 {
-	title:"Guardians of the Galaxy.",
+	title:"Guardians of the Galaxy ",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -1683,23 +1153,6 @@
 
 {
 	title:"Hacksaw Ridge ",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Halloween",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -1988,7 +1441,7 @@
 },
 
 {
-	title:"Independence Day: Resurgence",
+	title:"Independence Day Resurgence",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -2056,57 +1509,6 @@
 },
 
 {
-	title:"Iron Man",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Iron Man 2",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Iron Man 3",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
 	title:"Jack Reacher",
 	imageLink:"",
 	gendre:" ",
@@ -2158,23 +1560,6 @@
 },
 
 {
-	title:"Jumanji the next level",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
 	title:"Knight and Day",
 	imageLink:"",
 	gendre:" ",
@@ -2193,23 +1578,6 @@
 
 {
 	title:"Leon",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Line of Duty",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -2362,7 +1730,7 @@
 },
 
 {
-	title:"Morometii ",
+	title:"Morometii",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -2379,7 +1747,7 @@
 },
 
 {
-	title:"Morometii  2",
+	title:"Morometii 2",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -2498,7 +1866,7 @@
 },
 
 {
-	title:"Passengers ",
+	title:"Passengers",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -2583,7 +1951,7 @@
 },
 
 {
-	title:"Pirates of the Caribbean: At World's End",
+	title:"Pirates of the Caribbean At World's End",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -2600,7 +1968,7 @@
 },
 
 {
-	title:"Pirates of the Caribbean: The Curse of the Black Pearl",
+	title:"Pirates of the Caribbean The Curse of the Black Pearl",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -2685,7 +2053,7 @@
 },
 
 {
-	title:"Red notice ",
+	title:"Red notice",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -2736,23 +2104,6 @@
 },
 
 {
-	title:"Rise Of The Planet Of The Apes",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
 	title:"Rocky",
 	imageLink:"",
 	gendre:" ",
@@ -2787,7 +2138,7 @@
 },
 
 {
-	title:"Rocky 3 ",
+	title:"Rocky 3",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -2974,40 +2325,6 @@
 },
 
 {
-	title:"Shazam Fury of the Gods ",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Shazam!",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
 	title:"Shooter",
 	imageLink:"",
 	gendre:" ",
@@ -3094,57 +2411,6 @@
 
 {
 	title:"Spider-man 3",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Spider-Man: Far From Home",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Spider-Man: Homecoming",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"Spider-Man: No Way Home",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -3314,7 +2580,7 @@
 },
 
 {
-	title:"Stargate",
+	title:"Stargate Atlantis",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -3636,39 +2902,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"The Babysitter",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"The Babysitter: Killer Queen",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"The Batman",
@@ -3840,39 +3073,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"The Divergent Series: Allegiant (2016)",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"The Divergent Series: Insurgent",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"The Edge",
@@ -4130,7 +3330,7 @@
 },
 
 {
-	title:"The Hunger Games: Catching Fire",
+	title:"The Hunger Games Catching Fire",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -4164,41 +3364,7 @@
 },
 
 {
-	title:"The i-land",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"The invizibile man",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"The last kingdom",
+	title:"The Last Kingdom",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -4300,40 +3466,6 @@
 },
 
 {
-	title:"The Mist",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
-	title:"The Old Man & the Gun",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
-
-{
 	title:"The Pianist",
 	imageLink:"",
 	gendre:" ",
@@ -4367,22 +3499,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"The Protector",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"The Rain",
@@ -4487,7 +3603,7 @@
 },
 
 {
-	title:"The Upside ",
+	title:"The Upside",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -4555,7 +3671,7 @@
 },
 
 {
-	title:"Thor ",
+	title:"Thor",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -4674,7 +3790,7 @@
 },
 
 {
-	title:"Transformers age of extinction",
+	title:"Transformers Age of Extinction",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -4691,7 +3807,7 @@
 },
 
 {
-	title:"Transformers reverge of the fallen",
+	title:"Transformers Reverge of the Fallen",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -4725,7 +3841,7 @@
 },
 
 {
-	title:"Transformers the last knight",
+	title:"Transformers the Last Knight",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -4758,22 +3874,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Tribes of Europe",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Unbroken",
@@ -4810,7 +3910,7 @@
 },
 
 {
-	title:"UNKnown",
+	title:"Unknown",
 	imageLink:"",
 	gendre:" ",
 	gen:["",""],
@@ -4860,22 +3960,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"VWars",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Wanted",
@@ -4945,22 +4029,6 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Wonder Woman",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"World War Z",
