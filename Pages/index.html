@@ -12,13 +12,15 @@
 
 
   <header>
-    <span style="font-size:30px ;color:white;padding: 1%;;cursor:pointer" onclick="openNav()">&#9776;</span>
+    <h1 style="font-family:Arial, Helvetica, sans-serif,cursive; padding: 1%;"> The MovieVault</h1>
+    <hr>
+    <span style=" font-size:30px ;color:white;padding: 1%;;cursor:pointer"  onclick="openNav()">&#9776;</span>
   </header>
 
   <div id="myNav" class="overlay">
 
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
+    <div style="margin: 0; height: 100%; overflow: hidden" class="overlay-content">
       <a href="#">About</a>
       <a href="#">Services</a>
       <a href="#">Clients</a>
@@ -50,8 +52,9 @@
             <span class="slider round"></span>
         </label>
       </div>
-     
+ 
       <div style="padding-top: 1% ;padding-bottom: 2%" id="Filtre-Options">
+        <hr>
         <p style="font-weight: bold;">Gen</p>
           <button  id="btn1" class="BtnFiltre" onclick="ActionGen(1)">Actiune</button>
           <button id="btn2" class="BtnFiltre" onclick="ActionGen(2)" >Aventura</button>
@@ -65,15 +68,18 @@
           <button id="btn10" class="BtnFiltre" onclick="ActionGen(10)">Sci-Fi</button>
           <button id="btn11" class="BtnFiltre" onclick="ActionGen(11)">Thriller</button>
           <button id="btn12" class="BtnFiltre" onclick="ActionGen(12)">Toate</button>
+          
           <p style="font-weight: bold;">Tip</p>
           <p>
             <button id="btntype1" class="BtnFiltre" onclick="ActionType(1)">Film</button>
             <button id="btntype2" class="BtnFiltre" onclick="ActionType(2)">Serial</button>
             <button id="btntype3" class="BtnFiltre" onclick="ActionType(3)">Toate</button>
           </p>
+          <hr>
       </div>
       
       <div id="movie-wrapper" class="movie"></div>
+      <p></p>
       <button id="Previous" class="BtnFiltre" onclick="Previous()">Previous</button>
       <button id="Next" class="BtnFiltre" onclick="Next()">Next</button>
     </article>
