@@ -1327,27 +1327,15 @@ let aux=0,stack = [],aux2=0,start=-1;
         break;
       }
       var url_image = './Assets/MovieImages/'+Filme[i].title+'.jpg';
-      var request;
-      if(window.XMLHttpRequest)
-          request = new XMLHttpRequest();
-      else
-          request = new ActiveXObject("Microsoft.XMLHTTP");
-      request.open('GET', url_image, false);
-      request.send(); 
-      if (request.status === 404) {
-        Filme[i].imageLink="./Assets/MovieImages/unknow.jpg";
-      }
-      else{
-        Filme[i].imageLink="./Assets/MovieImages/"+Filme[i].title+".jpg";
-      }
-      /*
+      Filme[i].imageLink="./Assets/MovieImages/"+Filme[i].title+".jpg";
+      var image= new Image();
       image.src = url_image;
       if (image.width == 0) {
         Filme[i].imageLink="./Assets/MovieImages/unknow.jpg";
       } else {
         Filme[i].imageLink="./Assets/MovieImages/"+Filme[i].title+".jpg";
       }
-      */
+      
 
       
       Filme[i].ratingImage="./Assets/RatingImages/stars"+Filme[i].rating+".png";
