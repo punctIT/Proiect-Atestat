@@ -2,9 +2,9 @@
 
 
 {
-	title:"10 Cloverfield Lane ",
+	title:"10 Cloverfield Lane",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -21,7 +21,7 @@
 {
 	title:"A Man Called Otto",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -39,7 +39,7 @@
 {
 	title:"A Quiet Place",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -56,7 +56,7 @@
 {
 	title:"A Quiet Place 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -73,7 +73,7 @@
 {
 	title:"Alien",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -90,7 +90,7 @@
 {
 	title:"Aliens ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -107,7 +107,7 @@
 {
 	title:"All Quiet on the Western Front",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -124,7 +124,7 @@
 {
 	title:"Annihliation",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -141,7 +141,7 @@
 {
 	title:"Arrival",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -158,7 +158,7 @@
 {
 	title:"Arrow",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -176,7 +176,7 @@
 {
 	title:"Awakenings",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -190,27 +190,11 @@
 	streaming:["PrimeVideo"],
 },
 
-{
-	title:"Bad Boys",
-	imageLink:"",
-	gendre:" ",
-	gen:["",""],
-	year:1,
-	rating:1,
-	ratingImage:"",
-	type:" ",
-
-	text:"",
-	director:"",
-	writers:"?",
-	stars:" ?",
-	streaming:["PrimeVideo"],
-},
 
 {
 	title:"Bad Boys 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -227,7 +211,7 @@
 {
 	title:"Batman",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -244,7 +228,7 @@
 {
 	title:"Batman Begins",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -261,7 +245,7 @@
 {
 	title:"Batman Returns",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -279,7 +263,7 @@
 {
 	title:"Better Call Saul",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -297,7 +281,7 @@
 {
 	title:"Black Summer",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -314,7 +298,7 @@
 {
 	title:"BodyGuard",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -331,7 +315,7 @@
 {
 	title:"Bonnie and Clyde",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -348,7 +332,7 @@
 {
 	title:"Brawl in Cell Block 99",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -365,7 +349,7 @@
 {
 	title:"Cainii",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -383,7 +367,7 @@
 {
 	title:"Captain Phillips",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -400,7 +384,7 @@
 {
 	title:"Case 39 ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -417,7 +401,7 @@
 {
 	title:"Cast Away",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -434,7 +418,7 @@
 {
 	title:"Catch me if you can",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -451,7 +435,7 @@
 {
 	title:"Central Intelligence",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -468,7 +452,7 @@
 {
 	title:"Chernobyl",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -485,7 +469,7 @@
 {
 	title:"Chernobyl 1986",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -503,7 +487,7 @@
 {
 	title:"Children of Men ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -520,7 +504,7 @@
 {
 	title:"Coach Carter",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -537,7 +521,7 @@
 {
 	title:"Colony",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -554,7 +538,7 @@
 {
 	title:"Contact",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -571,7 +555,7 @@
 {
 	title:"Creed",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -588,7 +572,7 @@
 {
 	title:"Creed 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -605,7 +589,7 @@
 {
 	title:"Creed 3",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -624,7 +608,7 @@
 {
 	title:"Day of the Dead ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -641,7 +625,7 @@
 {
 	title:"Deadpool",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -659,7 +643,7 @@
 {
 	title:"Dog",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -676,7 +660,7 @@
 {
 	title:"Don t look up",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -693,7 +677,7 @@
 {
 	title:"El Camino",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -710,7 +694,7 @@
 {
 	title:"Escape",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -727,7 +711,7 @@
 {
 	title:"Escape from Alcatraz",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -744,7 +728,7 @@
 {
 	title:"Eternal Sunshine of the Spotless Mind",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -761,7 +745,7 @@
 {
 	title:"Fear The Walking Dead ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -778,7 +762,7 @@
 {
 	title:"Fight Club",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -795,7 +779,7 @@
 {
 	title:"Finch",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -812,7 +796,7 @@
 {
 	title:"Forest Gump",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -829,7 +813,7 @@
 {
 	title:"Free Guy",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -846,7 +830,7 @@
 {
 	title:"Frequency",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -863,7 +847,7 @@
 {
 	title:"Friday the 13th",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -880,7 +864,7 @@
 {
 	title:"Friday the 13th Part 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -897,7 +881,7 @@
 {
 	title:"Friday the 13th Part 3",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -915,7 +899,7 @@
 {
 	title:"Fury",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -932,7 +916,7 @@
 {
 	title:"Geostorm",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -949,7 +933,7 @@
 {
 	title:"Get Out ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -966,7 +950,7 @@
 {
 	title:"Ghost Rider",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -983,7 +967,7 @@
 {
 	title:"Ghost Rider spirit of vengeance",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1001,7 +985,7 @@
 {
 	title:"Going in style",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1018,7 +1002,7 @@
 {
 	title:"Good will Hunting",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1035,7 +1019,7 @@
 {
 	title:"Gotham",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1052,7 +1036,7 @@
 {
 	title:"Gravity",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1069,7 +1053,7 @@
 {
 	title:"Groundhog Day",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1086,7 +1070,7 @@
 {
 	title:"Grown ups",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1103,7 +1087,7 @@
 {
 	title:"Guardians Of The Galaxy Vol 3",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1120,7 +1104,7 @@
 {
 	title:"Guardians of The Galaxy Vol 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1137,7 +1121,7 @@
 {
 	title:"Guardians of the Galaxy ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1154,7 +1138,7 @@
 {
 	title:"Hacksaw Ridge ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1171,7 +1155,7 @@
 {
 	title:"Halloween",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1188,7 +1172,7 @@
 {
 	title:"Halloween II ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1205,7 +1189,7 @@
 {
 	title:"Harry Potter and the Chamber of Secrets",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1222,7 +1206,7 @@
 {
 	title:"Harry Potter and the Deathly Hallows Part 1",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1239,7 +1223,7 @@
 {
 	title:"Harry Potter and the Deathly Hallows Part 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1256,7 +1240,7 @@
 {
 	title:"Harry Potter and the Goblet of Fire",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1273,7 +1257,7 @@
 {
 	title:"Harry Potter and the Half Blood Prince",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1290,7 +1274,7 @@
 {
 	title:"Harry Potter and the Order of Phoenix",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1307,7 +1291,7 @@
 {
 	title:"Harry Potter and the Prisoner of Azkaban",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1324,7 +1308,7 @@
 {
 	title:"Harry Potter and the Sorcerer's Stone",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1341,7 +1325,7 @@
 {
 	title:"House",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1358,7 +1342,7 @@
 {
 	title:"How it ends",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1375,7 +1359,7 @@
 {
 	title:"Identity",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1392,7 +1376,7 @@
 {
 	title:"In the Tall Grass",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1409,7 +1393,7 @@
 {
 	title:"Inception",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1426,7 +1410,7 @@
 {
 	title:"Independence Day",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1443,7 +1427,7 @@
 {
 	title:"Independence Day Resurgence",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1460,7 +1444,7 @@
 {
 	title:"Interstellar",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1477,7 +1461,7 @@
 {
 	title:"Into the Night",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1494,7 +1478,7 @@
 {
 	title:"Iron Fist",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1511,7 +1495,7 @@
 {
 	title:"Jack Reacher",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1528,7 +1512,7 @@
 {
 	title:"Jack Reacher: Never Go Back",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1545,7 +1529,7 @@
 {
 	title:"Joker",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1562,7 +1546,7 @@
 {
 	title:"Knight and Day",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1579,7 +1563,7 @@
 {
 	title:"Leon",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1596,7 +1580,7 @@
 {
 	title:"Loki",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1613,7 +1597,7 @@
 {
 	title:"Lupin",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1630,7 +1614,7 @@
 {
 	title:"Man of steel",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1647,7 +1631,7 @@
 {
 	title:"Man on Fire",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1664,7 +1648,7 @@
 {
 	title:"Me Time ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1681,7 +1665,7 @@
 {
 	title:"Mirciulica",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1698,7 +1682,7 @@
 {
 	title:"Misery",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1715,7 +1699,7 @@
 {
 	title:"Money Hesit",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1732,7 +1716,7 @@
 {
 	title:"Morometii",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1749,7 +1733,7 @@
 {
 	title:"Morometii 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1766,7 +1750,7 @@
 {
 	title:"Mr. and Mrs. Smith ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1783,7 +1767,7 @@
 {
 	title:"Nobody",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1800,7 +1784,7 @@
 {
 	title:"Nonstop",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1817,7 +1801,7 @@
 {
 	title:"Oblivion",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1834,7 +1818,7 @@
 {
 	title:"Outside the wire",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1851,7 +1835,7 @@
 {
 	title:"Papilon",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1868,7 +1852,7 @@
 {
 	title:"Passengers",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1885,7 +1869,7 @@
 {
 	title:"Peaky Blindres",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1902,7 +1886,7 @@
 {
 	title:"Pirates of the Caribbean Dead Men Tell No Tales",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1919,7 +1903,7 @@
 {
 	title:"Pirates of the Caribbean On Stranger Tides",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1936,7 +1920,7 @@
 {
 	title:"Pirates of the Caribbean Dead Man's Chest ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1953,7 +1937,7 @@
 {
 	title:"Pirates of the Caribbean At World's End",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1970,7 +1954,7 @@
 {
 	title:"Pirates of the Caribbean The Curse of the Black Pearl",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -1987,7 +1971,7 @@
 {
 	title:"Plane",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2004,7 +1988,7 @@
 {
 	title:"Predator",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2021,7 +2005,7 @@
 {
 	title:"Prison Break",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2038,7 +2022,7 @@
 {
 	title:"Ragnarok",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2055,7 +2039,7 @@
 {
 	title:"Red notice",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2072,7 +2056,7 @@
 {
 	title:"Reservoir Dogs",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2089,7 +2073,7 @@
 {
 	title:"Resident Evil: Welcome to Raccoon City",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2106,7 +2090,7 @@
 {
 	title:"Rocky",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2123,7 +2107,7 @@
 {
 	title:"Rocky 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2140,7 +2124,7 @@
 {
 	title:"Rocky 3",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2157,7 +2141,7 @@
 {
 	title:"Rocky 4",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2174,7 +2158,7 @@
 {
 	title:"Rocky Balboa",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2191,7 +2175,7 @@
 {
 	title:"Rogue One A Star Wars Story",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2208,7 +2192,7 @@
 {
 	title:"Saving private Ryan",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2225,7 +2209,7 @@
 {
 	title:"Scarface",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2242,7 +2226,7 @@
 {
 	title:"Scent of a woman",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2259,7 +2243,7 @@
 {
 	title:"Scream",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2276,7 +2260,7 @@
 {
 	title:"Se7en",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2293,7 +2277,7 @@
 {
 	title:"Seven years in Tibet",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2310,7 +2294,7 @@
 {
 	title:"Shaun of the Dead",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2327,7 +2311,7 @@
 {
 	title:"Shooter",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2344,7 +2328,7 @@
 {
 	title:"SnowPiecer",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2361,7 +2345,7 @@
 {
 	title:"Solo A Star Wars Story",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2378,7 +2362,7 @@
 {
 	title:"Spider-man 1",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2395,7 +2379,7 @@
 {
 	title:"Spider-man 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2412,7 +2396,7 @@
 {
 	title:"Spider-man 3",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2429,7 +2413,7 @@
 {
 	title:"Stand by Me",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2446,7 +2430,7 @@
 {
 	title:"Star Wars Episode II Attack of the Clones",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2463,7 +2447,7 @@
 {
 	title:"Star Wars Episode III Revenge Of The Sith",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2480,7 +2464,7 @@
 {
 	title:"Star Wars Episode IV A New Hope",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2497,7 +2481,7 @@
 {
 	title:"Star Wars Episode IX The Rise Of Skywalker",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2514,7 +2498,7 @@
 {
 	title:"Star Wars Episode V The Empire Strikes Back",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2531,7 +2515,7 @@
 {
 	title:"Star Wars Episode VI Return of the Jedi",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2548,7 +2532,7 @@
 {
 	title:"Star Wars Episode VII The Force Awakens",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2565,7 +2549,7 @@
 {
 	title:"Star Wars Episode VIII The Last Jedi",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2582,7 +2566,7 @@
 {
 	title:"Stargate Atlantis",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2599,7 +2583,7 @@
 {
 	title:"Sucide Squad",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2616,7 +2600,7 @@
 {
 	title:"Sully",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2633,7 +2617,7 @@
 {
 	title:"Superman",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2650,7 +2634,7 @@
 {
 	title:"Superman & Lois",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2667,7 +2651,7 @@
 {
 	title:"Superman 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2684,7 +2668,7 @@
 {
 	title:"Superman returns",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2701,7 +2685,7 @@
 {
 	title:"Taken",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2718,7 +2702,7 @@
 {
 	title:"Taken 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2735,7 +2719,7 @@
 {
 	title:"Taking Lives",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2752,7 +2736,7 @@
 {
 	title:"Taxi Driver",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2769,7 +2753,7 @@
 {
 	title:"Ted",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2786,7 +2770,7 @@
 {
 	title:"Ted 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2803,7 +2787,7 @@
 {
 	title:"The 100",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2820,7 +2804,7 @@
 {
 	title:"The Adam project",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2837,7 +2821,7 @@
 {
 	title:"The Age of Stupid",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2854,7 +2838,7 @@
 {
 	title:"The Amazing Spider-Man",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2871,7 +2855,7 @@
 {
 	title:"The Amazing Spider-Man 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2888,7 +2872,7 @@
 {
 	title:"The Avengers",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2906,7 +2890,7 @@
 {
 	title:"The Batman",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2923,7 +2907,7 @@
 {
 	title:"The BlackList",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2940,7 +2924,7 @@
 {
 	title:"The Book of Eli",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2957,7 +2941,7 @@
 {
 	title:"The Butterfly Effect",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2974,7 +2958,7 @@
 {
 	title:"The Change Up",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -2991,7 +2975,7 @@
 {
 	title:"The Commuter",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3008,7 +2992,7 @@
 {
 	title:"The Dark Knight",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3025,7 +3009,7 @@
 {
 	title:"The Dark Knight Rises",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3042,7 +3026,7 @@
 {
 	title:"The Decline",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3059,7 +3043,7 @@
 {
 	title:"The Dictator",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3077,7 +3061,7 @@
 {
 	title:"The Edge",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3094,7 +3078,7 @@
 {
 	title:"The Equalizer",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3111,7 +3095,7 @@
 {
 	title:"The Equalizer 2",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3128,7 +3112,7 @@
 {
 	title:"The Equalizer 3",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3145,7 +3129,7 @@
 {
 	title:"The Father",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3162,7 +3146,7 @@
 {
 	title:"The Fighter",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3179,7 +3163,7 @@
 {
 	title:"The Flash",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3196,7 +3180,7 @@
 {
 	title:"The Flash",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3213,7 +3197,7 @@
 {
 	title:"The Fly",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3230,7 +3214,7 @@
 {
 	title:"The Forgotten Battle",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3247,7 +3231,7 @@
 {
 	title:"The Fugitive",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3264,7 +3248,7 @@
 {
 	title:"The Green Mile",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3281,7 +3265,7 @@
 {
 	title:"The Grey ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3298,7 +3282,7 @@
 {
 	title:"The Guardians of the Galaxy Holiday Special",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3315,7 +3299,7 @@
 {
 	title:"The Hunger Games",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3332,7 +3316,7 @@
 {
 	title:"The Hunger Games Catching Fire",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3349,7 +3333,7 @@
 {
 	title:"The Ice Road",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3366,7 +3350,7 @@
 {
 	title:"The Last Kingdom",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3383,7 +3367,7 @@
 {
 	title:"The Last of Us",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3400,7 +3384,7 @@
 {
 	title:"The Martian",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3417,7 +3401,7 @@
 {
 	title:"The Mask",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3434,7 +3418,7 @@
 {
 	title:"The Midnight sky",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3451,7 +3435,7 @@
 {
 	title:"The Mist",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3468,7 +3452,7 @@
 {
 	title:"The Pianist",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3485,7 +3469,7 @@
 {
 	title:"The Platform",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3503,7 +3487,7 @@
 {
 	title:"The Rain",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3520,7 +3504,7 @@
 {
 	title:"The Relevant",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3537,7 +3521,7 @@
 {
 	title:"The Silence of the Lambs",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3554,7 +3538,7 @@
 {
 	title:"The Terminal",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3571,7 +3555,7 @@
 {
 	title:"The Tourist",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3588,7 +3572,7 @@
 {
 	title:"The Truman Show",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3605,7 +3589,7 @@
 {
 	title:"The Upside",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3622,7 +3606,7 @@
 {
 	title:"The Walking Dead Dead City",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3639,7 +3623,7 @@
 {
 	title:"The Way Back",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3656,7 +3640,7 @@
 {
 	title:"The Wolf of Wall Street",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3673,7 +3657,7 @@
 {
 	title:"Thor",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3690,7 +3674,7 @@
 {
 	title:"Thor Love and Thunder",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3707,7 +3691,7 @@
 {
 	title:"Thor Ragnarok",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3724,7 +3708,7 @@
 {
 	title:"Thor The Dark World",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3741,7 +3725,7 @@
 {
 	title:"Titans",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3758,7 +3742,7 @@
 {
 	title:"Tranformers Dark of the moon",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3775,7 +3759,7 @@
 {
 	title:"Transformers",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3792,7 +3776,7 @@
 {
 	title:"Transformers Age of Extinction",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3809,7 +3793,7 @@
 {
 	title:"Transformers Reverge of the Fallen",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3826,7 +3810,7 @@
 {
 	title:"Transformers Rise of the Beasts ",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3843,7 +3827,7 @@
 {
 	title:"Transformers the Last Knight",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3860,7 +3844,7 @@
 {
 	title:"Travelers",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3878,7 +3862,7 @@
 {
 	title:"Unbroken",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3895,7 +3879,7 @@
 {
 	title:"Uncharted",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3912,7 +3896,7 @@
 {
 	title:"Unknown",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3929,7 +3913,7 @@
 {
 	title:"Venom",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3946,7 +3930,7 @@
 {
 	title:"Vikings",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3964,7 +3948,7 @@
 {
 	title:"Wanted",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3981,7 +3965,7 @@
 {
 	title:"Wednesday",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -3998,7 +3982,7 @@
 {
 	title:"Whiplash",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -4015,7 +3999,7 @@
 {
 	title:"White House Down",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -4033,7 +4017,7 @@
 {
 	title:"World War Z",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -4050,7 +4034,7 @@
 {
 	title:"Young Sheldon",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -4067,7 +4051,7 @@
 {
 	title:"Zack Snyder's Justice League",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -4084,7 +4068,7 @@
 {
 	title:"Znation",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -4101,7 +4085,7 @@
 {
 	title:"Zombieland",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,
@@ -4118,7 +4102,7 @@
 {
 	title:"",
 	imageLink:"",
-	gendre:" ",
+	genre:" ",
 	gen:["",""],
 	year:1,
 	rating:1,

@@ -22,8 +22,8 @@
     cursor: pointer;
     color: rgb(255, 255, 255);
     background-color: #000000;
-    border-radius: 20px; /* Making border radius */
-    border-color: #000000;
+    border-radius: 25px; /* Making border radius */
+    border-color: #838383;
     width: auto; /* Making auto-sizable width */
     height: auto; /* Making auto-sizable height */
     padding: 5px 30px 5px 30px; /* Making space around letters */
@@ -57,7 +57,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #474747;
     -webkit-transition: .4s;
     transition: .4s;
   }
@@ -69,7 +69,7 @@
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     -webkit-transition: .4s;
     transition: .4s;
   }
