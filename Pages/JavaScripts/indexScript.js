@@ -1286,7 +1286,6 @@ const Filme=[
 
     
   ];
-
  
   window.onload=function(){
 
@@ -1301,6 +1300,7 @@ const Filme=[
       const FiltreFilme=document.getElementById("Filtre-Options");
       FiltreFilme.style.display = 'none';
     }
+    
     genetareFilme();
   
     //searchmenu
@@ -1309,8 +1309,29 @@ const Filme=[
     {
       search.innerHTML+=(` <li><a href="./Pages/${Filme[i].title}.html" target="_blank">${Filme[i].title}</a></li>`)
     }
-  
+
   }
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    for(let i = istart;i<Filme.length;i++)
+    {
+
+      var url_image = './Assets/MovieImages/'+Filme[i].title+'.jpg';
+      Filme[i].imageLink="./Assets/MovieImages/"+Filme[i].title+".jpg";
+      var image= new Image();
+      
+      image.src = url_image;
+      if (image.width == 0) {
+        Filme[i].imageLink="./Assets/MovieImages/unknow.jpg";
+      } else {
+        Filme[i].imageLink="./Assets/MovieImages/"+Filme[i].title+".jpg";
+      }      
+      Filme[i].ratingImage="./Assets/RatingImages/stars"+Filme[i].rating+".png";
+    }
+  }, false);
+
+  
 let aux=0,stack = [],aux2=0,start=-1;
 
  function genetareFilme()
@@ -1329,15 +1350,13 @@ let aux=0,stack = [],aux2=0,start=-1;
       var url_image = './Assets/MovieImages/'+Filme[i].title+'.jpg';
       Filme[i].imageLink="./Assets/MovieImages/"+Filme[i].title+".jpg";
       var image= new Image();
+      
       image.src = url_image;
       if (image.width == 0) {
         Filme[i].imageLink="./Assets/MovieImages/unknow.jpg";
       } else {
         Filme[i].imageLink="./Assets/MovieImages/"+Filme[i].title+".jpg";
-      }
-      
-
-      
+      }      
       Filme[i].ratingImage="./Assets/RatingImages/stars"+Filme[i].rating+".png";
 
       if(Filme[i].genre.includes(filtruGen)&&Filme[i].type.includes(filtruType)){
