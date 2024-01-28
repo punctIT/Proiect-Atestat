@@ -95,7 +95,10 @@
   .slider.round:before {
     border-radius: 50%;
   }
-
+  .center {
+    text-align-last: center;
+    border: 2px solid black;
+}
 
 
 

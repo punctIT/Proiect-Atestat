@@ -3,6 +3,7 @@ let filtruType="";
 let bfil=1;
 let bTypeFill=1;
 var originalbuttonbackcolor;
+let nrFilme=5;
 
 let istart=0,icnt=0;
 
@@ -3764,7 +3765,7 @@ let aux=0,stack = [],aux2=0,start=-1;
     icnt=0;
     for(let i = istart;i<Filme.length;i++)
     {
-      if(icnt==5)//cate Filme sa fie generate pe o pg
+      if(icnt==nrFilme)//cate Filme sa fie generate pe o pg
       {
         aux2=aux;
         aux=i;
@@ -3839,6 +3840,7 @@ let aux=0,stack = [],aux2=0,start=-1;
 
   function handleClick(cb) {
    
+    nrFilme=5;
     clearStack(stack);
     if(document.getElementById("filtreCheck").checked==true)
     {
@@ -3865,6 +3867,7 @@ let aux=0,stack = [],aux2=0,start=-1;
   //generare Filme in functie de genul selectat
   function ActionType(cv)
   {
+      nrFilme=5;
       clearStack(stack);
       if(cv==1){
           filtruType="Film";
@@ -3889,6 +3892,7 @@ let aux=0,stack = [],aux2=0,start=-1;
   // colorare specifica buton
   function ActionGen(cv)
   {
+    nrFilme=5;
     clearStack(stack);
     const genuri=['0',"action","adventure","comedy","crime","drama","fantasy","history","horror","mystery","sci-fi","thriller",""];
     filtruGen=genuri[cv];
@@ -3948,7 +3952,7 @@ function clearStack(s)
 }
   function Next()
   {
-      
+      nrFilme=5;
       istart=aux;
       let cv=stack.pop();
       if(aux2!=cv&&aux!=aux2){
@@ -3963,6 +3967,7 @@ function clearStack(s)
   }
   function Previous()
   {
+      nrFilme=5;
       istart=stack.pop();
       aux=istart;
       if(istart==start)
@@ -3971,5 +3976,11 @@ function clearStack(s)
       genetareFilme();
       document.body.scrollTop = 0; 
       document.documentElement.scrollTop = 0;
+    
+  }
+  function Showmore()
+  {
+      nrFilme+=5;
+      genetareFilme();
     
   }
