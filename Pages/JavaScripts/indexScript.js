@@ -514,7 +514,7 @@ const Filme=[
 
     //////start/////
       {
-        title: "Captain America: Civil War",
+        title: "Captain America Civil War",
         imageLink: "",
         genre: "action, adventure, sci-fi",
         gen: ["Acțiune", "Aventură", "Sci-Fi"],
@@ -531,7 +531,7 @@ const Filme=[
     },
     
     {
-        title: "Captain America: The First Avenger",
+        title: "Captain America The First Avenger",
         imageLink: "",
         genre: "action, adventure, sci-fi",
         gen: ["Acțiune", "Aventură", "Sci-Fi"],
@@ -548,7 +548,7 @@ const Filme=[
     },
     
     {
-        title: "Captain America: The Winter Soldier",
+        title: "Captain America The Winter Soldier",
         imageLink: "",
         genre: "action, adventure, sci-fi",
         gen: ["Acțiune", "Aventură", "Sci-Fi"],
@@ -1260,22 +1260,6 @@ const Filme=[
     director: "Mel Gibson",
     writers: "Andrew Knight●Robert Schenkkan",
     stars: "Andrew Garfield, Sam Worthington, Luke Bracey",
-    streaming: ["PrimeVideo"]
-},
-
-{
-    title: "Halloween",
-    imageLink: "unknown.jpg",
-    genre: "horror, thriller",
-    gen: ["Horror", "Thriller"],
-    year: 1978,
-    rating: 4,
-    ratingImage: "",
-    type: "Film",
-    text: "Un criminal în serie escpae și se întoarce în orașul său natal pentru a-și continua omorurile de Halloween.",
-    director: "John Carpenter",
-    writers: "John Carpenter●Debra Hill",
-    stars: "Donald Pleasence, Jamie Lee Curtis, Tony Moran",
     streaming: ["PrimeVideo"]
 },
 
@@ -2018,7 +2002,7 @@ const Filme=[
 },
 
 {
-  title: "Pirates of the Caribbean: Dead Men Tell No Tales",
+  title: "Pirates of the Caribbean Dead Men Tell No Tales",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2034,7 +2018,7 @@ const Filme=[
 },
 
 {
-  title: "Pirates of the Caribbean: On Stranger Tides",
+  title: "Pirates of the Caribbean On Stranger Tides",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2050,7 +2034,7 @@ const Filme=[
 },
 
 {
-  title: "Pirates of the Caribbean: Dead Man's Chest",
+  title: "Pirates of the Caribbean Dead Man's Chest",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2066,7 +2050,7 @@ const Filme=[
 },
 
 {
-  title: "Pirates of the Caribbean: At World's End",
+  title: "Pirates of the Caribbean At World's End",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2082,7 +2066,7 @@ const Filme=[
 },
 
 {
-  title: "Pirates of the Caribbean: The Curse of the Black Pearl",
+  title: "Pirates of the Caribbean The Curse of the Black Pearl",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2177,7 +2161,7 @@ const Filme=[
 },
 
 {
-  title: "Resident Evil: Welcome to Raccoon City",
+  title: "Resident Evil Welcome to Raccoon City",
   imageLink: "unknown.jpg",
   genre: "action, horror, sci-fi",
   gen: ["Acțiune", "Groază", "Sc-Fi"],
@@ -2289,7 +2273,7 @@ const Filme=[
 },
 
 {
-  title: "Rogue One: A Star Wars Story",
+  title: "Rogue One A Star Wars Story",
   imageLink: "unknown.jpg",
   genre: "action, adventure, sci-fi",
   gen: ["Acțiune", "Aventură", "Sc-Fi"],
@@ -2416,7 +2400,7 @@ const Filme=[
   streaming: ["Netflix"]
 },
 {
-  title: "Solo: A Star Wars Story",
+  title: "Solo A Star Wars Story",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2480,7 +2464,7 @@ const Filme=[
 },
 
 {
-  title: "Spider-Man: Far From Home",
+  title: "Spider-Man Far From Home",
   imageLink: "unknown.jpg",
   genre: "action, adventure, sci-fi",
   gen: ["Acțiune", "Aventură", "Sc-Fi"],
@@ -2496,7 +2480,7 @@ const Filme=[
 },
 
 {
-  title: "Spider-Man: Homecoming",
+  title: "Spider-Man Homecoming",
   imageLink: "unknown.jpg",
   genre: "action, adventure, sci-fi",
   gen: ["Acțiune", "Aventură", "Sc-Fi"],
@@ -2512,7 +2496,7 @@ const Filme=[
 },
 
 {
-  title: "Spider-Man: No Way Home",
+  title: "Spider-Man No Way Home",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2562,7 +2546,7 @@ const Filme=[
 
 },
 {
-  title: "Star Wars: Episode II - Attack of the Clones",
+  title: "Star Wars Episode II - Attack of the Clones",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2578,7 +2562,7 @@ const Filme=[
 },
 
 {
-  title: "Star Wars: Episode III - Revenge of the Sith",
+  title: "Star Wars Episode III - Revenge of the Sith",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2594,7 +2578,7 @@ const Filme=[
 },
 
 {
-  title: "Star Wars: Episode IV - A New Hope",
+  title: "Star Wars Episode IV - A New Hope",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2610,7 +2594,7 @@ const Filme=[
 },
 
 {
-  title: "Star Wars: Episode IX - The Rise of Skywalker",
+  title: "Star Wars Episode IX - The Rise of Skywalker",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2626,7 +2610,7 @@ const Filme=[
 },
 
 {
-  title: "Star Wars: Episode V - The Empire Strikes Back",
+  title: "Star Wars Episode V - The Empire Strikes Back",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2642,7 +2626,7 @@ const Filme=[
 },
 
 {
-  title: "Star Wars: Episode VI - Return of the Jedi",
+  title: "Star Wars Episode VI - Return of the Jedi",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2658,7 +2642,7 @@ const Filme=[
 },
 
 {
-  title: "Star Wars: Episode VII - The Force Awakens",
+  title: "Star Wars Episode VII - The Force Awakens",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -2674,7 +2658,7 @@ const Filme=[
 },
 
 {
-  title: "Star Wars: Episode VIII - The Last Jedi",
+  title: "Star Wars Episode VIII - The Last Jedi",
   imageLink: "unknown.jpg",
   genre: "action, adventure, fantasy",
   gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -3523,7 +3507,7 @@ const Filme=[
 },
 
 {
-    title: "Thor: Love and Thunder",
+    title: "Thor Love and Thunder",
     imageLink: "unknown.jpg",
     genre: "action, adventure, comedy",
     gen: ["Acțiune", "Aventură", "Comedie"],
@@ -3539,7 +3523,7 @@ const Filme=[
 },
 
 {
-    title: "Thor: Ragnarok",
+    title: "Thor Ragnarok",
     imageLink: "unknown.jpg",
     genre: "action, adventure, comedy",
     gen: ["Acțiune", "Aventură", "Comedie"],
@@ -3555,7 +3539,7 @@ const Filme=[
 },
 
 {
-    title: "Thor: The Dark World",
+    title: "Thor The Dark World",
     imageLink: "unknown.jpg",
     genre: "action, adventure, fantasy",
     gen: ["Acțiune", "Aventură", "Fantezie"],
@@ -3739,7 +3723,7 @@ const Filme=[
 
   }
 
-
+/*
   document.addEventListener('DOMContentLoaded', function() {
     for(let i = istart;i<226;i++)
     {
@@ -3755,11 +3739,10 @@ const Filme=[
         Filme[i].imageLink="./Assets/MovieImages/"+Filme[i].title+".jpg";
       }      
       Filme[i].ratingImage="./Assets/RatingImages/stars"+Filme[i].rating+".png";
-      Filme[i].imageLink="./Assets/MovieImages/"+Filme[i].title+".jpg";
     }
     
   }, false);
-
+*/
   
 let aux=0,stack = [],aux2=0,start=-1;
 
@@ -3767,6 +3750,17 @@ let aux=0,stack = [],aux2=0,start=-1;
  {
     const movielist=document.getElementById("movie-wrapper");
     movielist.innerHTML="";
+    const movietotal=document.getElementById("movieTotal");
+    movietotal.innerHTML="";
+    let c=0,c1=0;
+    for(let i = 0;i<Filme.length;i++)
+    {   if(Filme[i].genre.includes(filtruGen)&&Filme[i].type.includes(filtruType)){
+         c++;
+         if(i>=istart)
+          c1++;
+     }
+    }
+    movietotal.innerHTML+=(` <textrounded>${c1}/${c}</textrounded>`);
     icnt=0;
     for(let i = istart;i<Filme.length;i++)
     {
@@ -3778,6 +3772,7 @@ let aux=0,stack = [],aux2=0,start=-1;
       }
       var url_image = './Assets/MovieImages/'+Filme[i].title+'.jpg';
       Filme[i].imageLink="./Assets/MovieImages/"+Filme[i].title+".jpg";
+      /*
       var image= new Image();
       
       image.src = url_image;
@@ -3786,6 +3781,7 @@ let aux=0,stack = [],aux2=0,start=-1;
       } else {
         Filme[i].imageLink="./Assets/MovieImages/"+Filme[i].title+".jpg";
       }      
+      */
       Filme[i].ratingImage="./Assets/RatingImages/stars"+Filme[i].rating+".png";
 
       if(Filme[i].genre.includes(filtruGen)&&Filme[i].type.includes(filtruType)){
