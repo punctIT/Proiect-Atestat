@@ -915,7 +915,7 @@ const Filme=[
       imageLink: "",
       genre: "action, crime, thriller",
       gen: ["Acțiune", "Crimă", "Thriller"],
-      year: 2012,
+      year: 2013,
       rating: 3,
       ratingImage: "",
       pageLink:"", 
