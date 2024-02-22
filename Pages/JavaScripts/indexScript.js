@@ -1779,21 +1779,6 @@ const Filme=[
   streaming: ["Netflix"]
 },
 
-{
-  title: "Me Time",
-  imageLink: "unknown.jpg",
-  genre: "comedy",
-  gen: ["Comedie"],
-  year: 2022,
-  rating: 3,
-  ratingImage: "",
-  type: "Film",
-  text: "Doi prieteni de lungă durată decid să-și acorde un concediu de la viața lor cotidiană și să trăiască aventuri nebunești.",
-  director: "Paula Pell●John Lutz",
-  writers: "Paula Pell●John Lutz",
-  stars: "Melissa McCarthy, Octavia Spencer, Bobby Cannavale",
-  streaming: ["Netflix"]
-},
 
 {
   title: "Mirciulica",
